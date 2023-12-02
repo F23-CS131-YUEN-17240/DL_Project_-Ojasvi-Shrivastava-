@@ -2,6 +2,7 @@
 Hello Everyone & Welcome to Ojasvi Shrivastava's CS 131 Presentation
 
 # Dynamic Programming
+I have used three examples to explain how you can use dynamic programming to solve optimization problems.
 
 # Knapsack Problem 
 Initialize the dynamic programming table:
