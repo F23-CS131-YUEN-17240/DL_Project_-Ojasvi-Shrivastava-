@@ -1,7 +1,7 @@
 def shortest_path(graph, source):
     distances = [float('inf') for _ in range(len(graph))]
     distances[source] = 0
-
+ 
     unvisited = set(range(len(graph)))
     while unvisited:
         current = min(unvisited, key=lambda node: distances[node])
