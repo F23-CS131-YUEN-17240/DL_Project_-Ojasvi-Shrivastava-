@@ -22,3 +22,39 @@ Find the maximum value:
 
 After filling the table, the maximum value for the knapsack problem can be found at dp[n][capacity].
 This code efficiently solves the knapsack problem by storing the intermediate results in the dynamic programming table, avoiding redundant calculations and improving the overall time complexity.
+
+# Shortest Path Problem
+Initialize distances:
+
+Create a list distances of length equal to the number of nodes, initialized with infinity for all nodes and 0 for the source node.
+Initialize unvisited set:
+
+Create a set unvisited containing all nodes.
+Iterate until unvisited set is empty:
+
+While unvisited:
+Find the unvisited node with the minimum tentative distance.
+Remove the current node from unvisited.
+Update distances for neighbors:
+
+For each neighbor of the current node:
+Update the neighbor's distance with the minimum of its current distance and the tentative distance through the current node.
+Return distances:
+
+Return the distances array containing the shortest distances from the source node to all other nodes.
+
+# Game of Chess
+The provided code defines a function evaluate_position() that assesses the strength of a chess position by calculating and combining material and positional values.
+
+Material Value:
+
+Determine the intrinsic value of pieces on the board based on their point values.
+Positional Advantages:
+
+Evaluate the strategic placement and interactions of pieces to assess their positional strength.
+Combined Evaluation:
+
+Combine material and positional values to obtain an overall evaluation score for the position.
+Return Evaluation Score:
+
+Return the evaluation score, indicating the perceived strength of the position.
